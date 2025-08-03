@@ -1,4 +1,4 @@
-# 🖥️ Utkarsh's Terminal Portfolio
+#  My Terminal Portfolio
 
 A modern, interactive terminal-style portfolio built with React, TypeScript, and Tailwind CSS. Experience a unique portfolio that feels like you're using a real terminal with authentic typing animations, command history, and interactive features.
 
@@ -7,9 +7,9 @@ A modern, interactive terminal-style portfolio built with React, TypeScript, and
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)
 ![Vite](https://img.shields.io/badge/Vite-5.4.1-purple)
 
-## ✨ Features
+##  Features
 
-### 🎯 Core Features
+###  Core Features
 
 - **Interactive Terminal Interface** - Real terminal experience with command-line interactions
 - **Command History Navigation** - Use arrow keys to cycle through previous commands
@@ -17,7 +17,7 @@ A modern, interactive terminal-style portfolio built with React, TypeScript, and
 - **Theme Switching** - Toggle between light and dark themes
 - **Responsive Design** - Works perfectly on desktop and mobile devices
 
-### 🎨 Visual & UX
+###  Visual & UX
 
 - **Typing Animations** - Watch commands type themselves in demo mode
 - **Loading States** - Visual feedback during command processing
@@ -25,14 +25,14 @@ A modern, interactive terminal-style portfolio built with React, TypeScript, and
 - **Sound Effects** - Authentic terminal key sounds
 - **Smooth Transitions** - Professional animations throughout
 
-### 🔧 Technical Features
+###  Technical Features
 
 - **Code Obfuscation** - Production builds are heavily obfuscated for security
 - **Developer Tools Protection** - Advanced detection and blocking of dev tools
 - **Security Headers** - Comprehensive web security implementation
 - **Performance Optimized** - Fast loading with code splitting and minification
 
-## 🚀 Available Commands
+##  Available Commands
 
 | Command    | Description                                |
 | ---------- | ------------------------------------------ |
@@ -52,7 +52,7 @@ A modern, interactive terminal-style portfolio built with React, TypeScript, and
 | `neofetch` | Display system information                 |
 | `demo`     | Run interactive demo with typing animation |
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -73,7 +73,7 @@ A modern, interactive terminal-style portfolio built with React, TypeScript, and
 - **Prettier** - Code formatting
 - **TypeScript** - Static type checking
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ npm run build
 npm run preview
 ```
 
-## 🎮 Usage
+##  Usage
 
 ### Development
 
@@ -126,7 +126,7 @@ npm run lint
 
 Runs ESLint to check code quality
 
-## 🎨 Customization
+##  Customization
 
 ### Adding New Commands
 
@@ -146,7 +146,7 @@ Runs ESLint to check code quality
 - Custom CSS variables for terminal colors
 - Responsive design with mobile-first approach
 
-## 🔒 Security Features
+##  Security Features
 
 ### Production Security
 
@@ -162,14 +162,14 @@ Runs ESLint to check code quality
 - X-Content-Type-Options
 - X-XSS-Protection
 
-## 📱 Browser Support
+##  Browser Support
 
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
 - Edge 90+
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -177,11 +177,11 @@ Runs ESLint to check code quality
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 About the Developer
+##  About the Developer
 
 **Utkarsh** is a passionate BCA student from India, specializing in:
 
@@ -196,7 +196,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub**: [github.com/utkarsh](https://github.com/utkarsh)
 - **LinkedIn**: [linkedin.com/in/utkarsh](https://linkedin.com/in/utkarsh)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Radix UI** for accessible components
 - **Tailwind CSS** for the utility-first styling
@@ -205,6 +205,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐ **Star this repository if you found it helpful!**
-
-Made with ❤️ by Utkarsh
+ **Star this repository if you found it helpful!**
