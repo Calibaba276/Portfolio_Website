@@ -389,11 +389,11 @@ const COMMANDS = {
   resume: () => (
     <div className="terminal-output">
       <p className="mb-2">
-        📄 <span className="terminal-success">Download my resume:</span>
+        <span className="terminal-success">Download my resume:</span>
       </p>
       <p
         className="terminal-blue cursor-pointer hover:underline"
-        onClick={() => window.open("/resume.pdf", "_blank")}
+        onClick={() => window.open("/resumebetterquality.pdf", "_blank")}
       >
         → Click here to download resume.pdf
       </p>
