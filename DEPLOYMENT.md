@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide will help you deploy your React portfolio to Vercel or GitHub Pages.
+This guide will help you deploy your React portfolio to Vercel.
 
 ## Issues Fixed
 
@@ -33,46 +33,7 @@ The following issues that commonly cause blank pages have been resolved:
 3. Import your repository
 4. Vercel will automatically detect it's a Vite project and deploy
 
-## Deploy to GitHub Pages
 
-### Option 1: Using GitHub Actions (Recommended)
-
-1. Create `.github/workflows/deploy.yml`:
-
-   ```yaml
-   name: Deploy to GitHub Pages
-
-   on:
-     push:
-       branches: [main]
-
-   jobs:
-     build-and-deploy:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v3
-         - uses: actions/setup-node@v3
-           with:
-             node-version: "18"
-         - run: npm ci
-         - run: npm run build:prod
-         - uses: peaceiris/actions-gh-pages@v3
-           with:
-             github_token: ${{ secrets.GITHUB_TOKEN }}
-             publish_dir: ./dist
-   ```
-
-2. Push to main branch to trigger deployment
-
-### Option 2: Manual Deployment
-
-1. Build the project:
-
-   ```bash
-   npm run build:prod
-   ```
-
-2. Push the `dist` folder to a `gh-pages` branch
 
 ## Troubleshooting
 
@@ -86,7 +47,7 @@ The following issues that commonly cause blank pages have been resolved:
 ### Common Issues:
 
 1. **Missing Assets** - Ensure all assets are in the `public` folder
-2. **Routing Issues** - The GitHub Pages routing script should handle this automatically
+2. **Routing Issues** - Vercel handles SPA routing automatically
 3. **Build Errors** - Check that all dependencies are installed correctly
 
 ### For Vercel:
@@ -95,11 +56,7 @@ The following issues that commonly cause blank pages have been resolved:
 - Ensure `vercel.json` is in the root directory
 - Verify the build command is correct
 
-### For GitHub Pages:
 
-- Check GitHub Actions logs
-- Ensure the repository is public (for free accounts)
-- Verify the GitHub Pages source is set to the correct branch
 
 ## Environment Variables
 
@@ -109,9 +66,7 @@ If you need to add environment variables:
 
 - Add them in the Vercel dashboard under Project Settings > Environment Variables
 
-### GitHub Pages:
 
-- Add them in GitHub repository Settings > Secrets and variables > Actions
 
 ## Performance Optimization
 

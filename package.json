@@ -10,8 +10,7 @@
     "build:prod": "vite build --mode production",
     "preview": "vite preview",
     "lint": "eslint .",
-    "deploy:vercel": "vercel --prod",
-    "deploy:github": "npm run build:prod && echo 'Build complete. Push to GitHub Pages branch.'"
+    "deploy:vercel": "vercel --prod"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

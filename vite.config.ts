@@ -14,8 +14,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Set base path for GitHub Pages (if needed)
-  base: process.env.NODE_ENV === "production" ? "/" : "/",
+  // Vercel deployment - no base path needed
+  base: "/",
   build: {
     // Simplified build configuration
     minify: "terser",
