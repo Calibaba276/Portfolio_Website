@@ -33,8 +33,6 @@ The following issues that commonly cause blank pages have been resolved:
 3. Import your repository
 4. Vercel will automatically detect it's a Vite project and deploy
 
-
-
 ## Troubleshooting
 
 ### If you still see a blank page:
@@ -56,8 +54,6 @@ The following issues that commonly cause blank pages have been resolved:
 - Ensure `vercel.json` is in the root directory
 - Verify the build command is correct
 
-
-
 ## Environment Variables
 
 If you need to add environment variables:
@@ -65,8 +61,6 @@ If you need to add environment variables:
 ### Vercel:
 
 - Add them in the Vercel dashboard under Project Settings > Environment Variables
-
-
 
 ## Performance Optimization
 
