@@ -5,12 +5,12 @@ interface BootSequenceProps {
 }
 
 const ASCII_ART = `
-██╗   ██╗████████╗██╗  ██╗ █████╗ ██████╗ ███████╗██╗  ██╗
-██║   ██║╚══██╔══╝██║ ██╔╝██╔══██╗██╔══██╗██╔════╝██║  ██║
-██║   ██║   ██║   █████╔╝ ███████║██████╔╝███████╗███████║
-██║   ██║   ██║   ██╔═██╗ ██╔══██║██╔══██╗╚════██║██╔══██║
-╚██████╔╝   ██║   ██║  ██╗██║  ██║██║  ██║███████║██║  ██║
- ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+██████╗ █████╗ ██╗     ██╗██████╗  █████╗ ██████╗  █████╗ 
+██╔════╝██╔══██╗██║     ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██║     ███████║██║     ██║██████╔╝███████║██████╔╝███████║
+██║     ██╔══██║██║     ██║██╔══██╗██╔══██║██╔══██╗██╔══██║
+╚██████╗██║  ██║███████╗██║██████╔╝██║  ██║██████╔╝██║  ██║
+ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝
 `;
 
 const BOOT_MESSAGES = [
@@ -73,12 +73,12 @@ export const BootSequence = ({ onBootComplete }: BootSequenceProps) => {
             </pre>
             
             <div className="text-lg md:text-xl mb-4">
-              Welcome to <span className="terminal-warning">Utkarsh's</span> Portfolio Terminal
+              Welcome to <span className="terminal-warning">Caleb's</span> Portfolio Terminal
             </div>
             
             <div className="text-sm md:text-base mb-6 terminal-gray">
-              <div>BCA Student • India • Learning ML & Robotics</div>
-              <div>Aiming for ML Ops + Robotics</div>
+              <div>Covenant University Student • Nigeria • Learning Full Stack, ML & Robotics</div>
+              <div>Aiming for Computer God</div>
             </div>
             
             <div className="text-sm terminal-info">
@@ -86,7 +86,7 @@ export const BootSequence = ({ onBootComplete }: BootSequenceProps) => {
             </div>
             
             <div className="mt-8 text-xs terminal-gray">
-              Portfolio v2.0.1 - Built with React & TypeScript
+              Portfolio v2.0.1 - Built with React & TypeScript - Credit to <span>utkarsh-48</span> ❤
             </div>
           </div>
         )}

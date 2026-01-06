@@ -9,22 +9,22 @@ interface HistoryEntry {
   timestamp: Date;
 }
 const ASCII_ART = `
-██╗   ██╗████████╗██╗  ██╗ █████╗ ██████╗ ███████╗██╗  ██╗
-██║   ██║╚══██╔══╝██║ ██╔╝██╔══██╗██╔══██╗██╔════╝██║  ██║
-██║   ██║   ██║   █████╔╝ ███████║██████╔╝███████╗███████║
-██║   ██║   ██║   ██╔═██╗ ██╔══██║██╔══██╗╚════██║██╔══██║
-╚██████╔╝   ██║   ██║  ██╗██║  ██║██║  ██║███████║██║  ██║
- ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+██████╗ █████╗ ██╗     ██╗██████╗  █████╗ ██████╗  █████╗ 
+██╔════╝██╔══██╗██║     ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+██║     ███████║██║     ██║██████╔╝███████║██████╔╝███████║
+██║     ██╔══██║██║     ██║██╔══██╗██╔══██║██╔══██╗██╔══██║
+╚██████╗██║  ██║███████╗██║██████╔╝██║  ██║██████╔╝██║  ██║
+ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝
 `;
 
 const BANNER_INFO = `
-Welcome to Utkarsh's Portfolio Terminal
+Welcome to Calibaba's Portfolio Terminal
 
-BCA Student • India • Learning ML & Robotics
-Aiming for ML Ops + Robotics
+Covenant University Student • Nigeria • Learning Full Stack, ML & Robotics
+Aiming for Computer God
 
 Type 'help' to get started
-Portfolio v2.0.1 - Built with React & TypeScript
+Portfolio v2.0.1 - Built with React & TypeScript- Credit to utkarsh-48 ❤
 `;
 
 const COMMANDS = {
@@ -40,8 +40,8 @@ const COMMANDS = {
     <div className="terminal-output">
       <p className="mb-2">Hey there.</p>
       <p className="mb-2">
-        I'm <span className="terminal-info">Utkarsh</span>, a BCA student from
-        India.
+        I'm <span className="terminal-info">Caleb Babatunde</span>, a CU student from
+        Nigeria.
       </p>
       <p className="mb-2">Right now, I'm focused on:</p>
       <ul className="list-disc list-inside ml-4 mb-2">

@@ -9,7 +9,7 @@ export const TerminalOutput = ({ command, output }: TerminalOutputProps) => {
       {/* Command prompt line */}
       <div className="flex items-center">
         <span className="terminal-prompt-user text-sm md:text-base">
-          utkarsh
+          calibaba
         </span>
         <span className="terminal-prompt-symbol">@</span>
         <span className="terminal-prompt-host">portfolio</span>
